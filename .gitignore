@@ -2,17 +2,17 @@
 # Dependencies
 node_modules/
 
-# Build outputs
-dist/
-build/
-target/
-
 # Environment variables
 .env
 .env.local
 .env.*
 
-# Python related
+# Build outputs
+dist/
+build/
+target/
+
+# Python
 __pycache__/
 *.pyc
 *.pyo
@@ -21,26 +21,12 @@ __pycache__/
 env/
 venv/
 .venv/
+.venv.bak/
 pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-*.tmp
-*.swp
-*.swo
+pip-selfcheck.json
 
-# IDE and editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# Logs
+*.log
 
 # OS generated files
 .DS_Store
@@ -50,19 +36,11 @@ coverage.xml
 .Trashes
 ehthumbs.db
 Thumbs.db
-desktop.ini
 
-# Logs
-*.log
-
-# Coverage directory used by tools like Istanbul
-coverage/
-*.lcov
-
-# Temporary folders
-tmp/
-temp/
-
-# Local configuration
-config/local.json
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 ```
